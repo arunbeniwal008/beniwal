@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build") {
             when {
-               /*changerequest()*/
+               changerequest()
             }
 
             steps {
